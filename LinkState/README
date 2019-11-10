@@ -1,0 +1,12 @@
+The design of my project is split up into two classes
+LinkState class is main class that takes in the file and sourceNode
+LinkState also reades the file with number of nodes first and then puts all information in a matrix
+Then link state calls method dijkstra in shortestpath class that deals with finding shortest path and printing it in console
+
+When building my solution I changed the command directory to file with LinkState.java ShortestPath.java and network.dat(or whatever testing file)
+Then I used javac LinkState and then java LinkState fileName sourceNodeId
+fileName is file wanted to be tested and sourceNodeId is whatever the source node is
+
+The time complexity of this soultion is O(n^2)
+
+Dijkstra method in shortestpath loops through numNodes-1 with a loop inside numNodes
